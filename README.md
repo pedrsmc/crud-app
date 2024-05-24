@@ -1,6 +1,6 @@
 # Projeto CRUD
 
-Este é um CRUD básico desenvolvido por mim.
+Este sistema foi desenvolvido usando Node.js, TypeScript, Prisma, e MongoDB no backend, com React e Vite no frontend. Essas tecnologias permitem criar, ler, atualizar e excluir dados. O Prisma facilita a interação com o MongoDB, enquanto o React oferece uma interface de usuário.
 
 ## Tecnologias Utilizadas
 
