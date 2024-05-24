@@ -1,0 +1,50 @@
+.usersContainer {
+    cursor: default;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background: var(--white-500);
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.usersField {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.usersContainer:hover {
+    transform: scale(1.03);
+}
+
+.btnField {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btnField button {
+    border: none;
+    padding: 7px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: var(--white-500);
+    cursor: pointer;
+    transition: filter 0.1s ease-in-out;
+}
+
+.removeBtn {
+    background: var(--red-500);
+}
+
+.updateBtn {
+    background: var(--dark-blue-400);
+}
+
+.btnField button:active {
+    filter: brightness(0.7);
+}
