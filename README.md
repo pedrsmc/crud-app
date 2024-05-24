@@ -1,4 +1,4 @@
-# CRUD usando Node.js, TypeScript, Prisma, MongoDB, React + Vite (JSX) e HTML
+# Projeto CRUD
 
 Este é um CRUD básico desenvolvido por mim.
 
